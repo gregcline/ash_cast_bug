@@ -5,9 +5,6 @@ defmodule DemoListItem do
   attributes do
     uuid_primary_key(:id)
     attribute(:name, :string, allow_nil?: false)
-    attribute(:link, :string)
-    attribute(:bought, :boolean, default: false)
-    attribute(:notes, :string)
   end
 
   actions do
